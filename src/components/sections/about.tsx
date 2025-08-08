@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { User, MapPin, Calendar } from 'lucide-react';
 import { PERSONAL_INFO } from '@/lib/constants';
-// import Image from 'next/image'; // Uncomment when you have actual photo
+import Image from 'next/image';
 
 export function AboutSection() {
   return (
@@ -36,28 +36,15 @@ export function AboutSection() {
               {/* Decorative background */}
               <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-600 rounded-2xl transform rotate-6 scale-105"></div>
               
-              {/* Photo placeholder */}
+              {/* Profile Photo */}
               <div className="relative bg-gray-200 dark:bg-gray-700 rounded-2xl overflow-hidden aspect-square">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <User className="h-24 w-24 text-gray-400 dark:text-gray-500 mx-auto mb-4" />
-                    <p className="text-gray-500 dark:text-gray-400 text-lg font-medium">
-                      Photo Placeholder
-                    </p>
-                    <p className="text-gray-400 dark:text-gray-500 text-sm mt-2">
-                      Replace with your professional photo
-                    </p>
-                  </div>
-                </div>
-                
-                {/* Uncomment and update the src when you have a photo */}
-                {/* <Image
+                <Image
                   src="/profile-photo.jpg"
                   alt={PERSONAL_INFO.name}
                   fill
                   className="object-cover"
                   priority
-                /> */}
+                />
               </div>
               
               {/* Floating elements */}
