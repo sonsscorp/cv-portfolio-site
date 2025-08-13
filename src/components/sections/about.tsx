@@ -186,9 +186,15 @@ export function AboutSection() {
                 Education
               </h4>
               <div className="p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
-                <h5 className="font-medium text-gray-900 dark:text-white">Bachelor&apos;s Degree in Economics</h5>
-                <p className="text-sm text-blue-600 dark:text-blue-400 mb-2">University of Foreign Trade, Ho Chi Minh City, Vietnam</p>
+                <h5 className="font-medium text-gray-900 dark:text-white">English Teaching Qualification</h5>
+                <p className="text-sm text-blue-600 dark:text-blue-400 mb-2">Long An Pedagogy College, Long An Province, Vietnam</p>
                 <p className="text-sm text-gray-600 dark:text-gray-400">Graduated 1992</p>
+                <h5 className="font-medium text-gray-900 dark:text-white mt-4">Major in English</h5>
+                <p className="text-sm text-blue-600 dark:text-blue-400 mb-2">Hanoi Foreign Language University, Ho Chi Minh City, Vietnam</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Graduated 1997</p>
+                <h5 className="font-medium text-gray-900 dark:text-white mt-4">Bachelor&apos;s Degree in Economics</h5>
+                <p className="text-sm text-blue-600 dark:text-blue-400 mb-2">University of Foreign Trade, Ho Chi Minh City, Vietnam</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Graduated 2003</p>
               </div>
             </motion.div>
           </motion.div>
