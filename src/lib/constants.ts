@@ -62,37 +62,53 @@ export const EXPERIENCES: Experience[] = [
     technologies: ['Electronic Testing Equipment', 'Quality Control Systems', 'Circuit Board Testing', 'Manufacturing Standards', 'Documentation Systems']
   },
   {
-    id: '2',
-    company: 'SSCORP LTD',
-    position: 'Assistant to the General Director',
-    duration: '2002 - 2023',
-    location: 'Ho Chi Minh City, Vietnam',
-    description: [
-      'Managed production activities for white rice and parboiled rice export operations',
-      'Coordinated with international customers across multiple markets',
-      'Oversaw import and export logistics with shipping lines and freight forwarders',
-      'Supervised production of complementary products including fish meal and rice bran',
-      'Maintained relationships with overseas buyers and ensured contract compliance',
-      'Managed quality control processes to meet international food safety standards'
-    ],
-    technologies: ['International Trade', 'Supply Chain Management', 'Export Documentation', 'Customer Relations', 'Quality Control', 'Logistics Coordination']
-  },
-  {
-    id: '3',
-    company: 'JFT Rice Industry',
-    position: 'Assistant to the General Director',
-    duration: '1992 - 2002',
-    location: 'Ho Chi Minh City, Vietnam',
-    description: [
-      'Assisted in managing operations at joint venture between Indian and Thai companies',
-      'Oversaw daily production activities and workflow optimization',
-      'Managed import and export operations for rice industry products',
-      'Coordinated with international partners and stakeholders',
-      'Ensured compliance with Vietnamese and international trade regulations',
-      'Developed operational procedures for efficient production management'
-    ],
-    technologies: ['Production Management', 'International Trade', 'Joint Venture Operations', 'Regulatory Compliance', 'Cross-Cultural Communication', 'Operations Optimization']
-  }
+      id: '2',
+      company: 'JFTRI Industry (Joint Venture)',
+      position: 'Interpreter',
+      duration: '1992',
+      location: 'Vietnam',
+      description: [
+        'Served as an interpreter facilitating communication between Indian and Thai engineers and local teams to build the first pasteurized factory in Vietnam'
+      ],
+      technologies: [
+        'Cross-Cultural Communication',
+        'Technical Translation',
+        'Project Coordination',
+        'International Collaboration'
+      ]
+    },
+    {
+      id: '3',
+      company: 'JFTRI Industry',
+      position: 'Chief of Purchasing Team',
+      duration: '1994-1995',
+      location: 'Vietnam',
+      description: [
+        'Led the purchasing team responsible for procuring raw materials needed to run the factory\'s production lines'
+      ],
+      technologies: [
+        'Procurement Management',
+        'Team Leadership',
+        'Supply Chain Coordination',
+        'Vendor Relations'
+      ]
+    },
+    {
+      id: '4',
+      company: 'JFTRI Industry',
+      position: 'Production Manager',
+      duration: '1997 onward',
+      location: 'Vietnam',
+      description: [
+        'Oversaw daily production activities, managed import-export operations, and ensured smooth logistics for pasteurized products'
+      ],
+      technologies: [
+        'Production Management',
+        'Import-Export Operations',
+        'Logistics Management',
+        'Operations Oversight'
+      ]
+    }
 ];
 
 // Skills Data
@@ -145,7 +161,7 @@ export const PROJECTS: Project[] = [
   {
     id: '2',
     title: 'International Rice Export Operations',
-    description: 'Managed multi-million dollar rice export operations for SSCORP LTD, coordinating shipments to over 20 countries and maintaining relationships with international buyers across Asia, Europe, and Africa.',
+    description: 'Managed multi-million dollar rice export operations for JFTRI Industry, coordinating shipments to over 20 countries and maintaining relationships with international buyers across Asia, Europe, and Africa.',
     technologies: ['International Trade', 'Supply Chain Management', 'Customer Relations', 'Export Documentation', 'Logistics Coordination'],
     image: '/projects/rice-export.jpg',
     featured: true
