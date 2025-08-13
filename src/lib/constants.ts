@@ -17,10 +17,28 @@ export const PERSONAL_INFO = {
 export const EDUCATION: Education[] = [
   {
     id: '1',
+    institution: 'Long An Pedagogy College',
+    degree: 'English Teaching Qualification',
+    field: 'English Teaching',
+    duration: 'Graduated 1992',
+    location: 'Long An, Vietnam',
+    description: 'Completed English Teaching Qualification program, developing foundational skills in English language instruction and pedagogical methods.'
+  },
+  {
+    id: '2',
+    institution: 'Hanoi Foreign Language University',
+    degree: 'Major in English',
+    field: 'English',
+    duration: 'Graduated 1997',
+    location: 'Hanoi, Vietnam',
+    description: 'Specialized in English language and literature, developing advanced proficiency in English communication and linguistic analysis.'
+  },
+  {
+    id: '3',
     institution: 'University of Foreign Trade',
     degree: 'Bachelor\'s Degree',
     field: 'Economics',
-    duration: 'Graduated 1992',
+    duration: 'Graduated 2003',
     location: 'Ho Chi Minh City, Vietnam',
     description: 'Specialized in international economics, trade operations, and business management. Developed strong foundation in cross-cultural business practices and international market dynamics.'
   }
