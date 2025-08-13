@@ -5,7 +5,7 @@ export const PERSONAL_INFO = {
   name: 'Son Thanh Le',
   title: 'Testing Technician & International Trade Professional',
   tagline: 'Expert in international trade operations and electronic testing with 30+ years experience',
-  email: 'son.le@example.com',
+  email: 'son.sscorp@gmail.com',
   location: 'Santa Ana, CA',
   bio: `Experienced professional with over 30 years in international trade and manufacturing operations. 
         Currently specializing in electronic circuit board testing at Express Manufacturing Inc. 

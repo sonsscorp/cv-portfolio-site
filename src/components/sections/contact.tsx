@@ -198,7 +198,7 @@ export function ContactSection() {
                     transition={{ delay: 0.1, duration: 0.3 }}
                     whileHover={{ scale: 1.1, y: -2 }}
                     whileTap={{ scale: 0.9 }}
-                    href="mailto:son.le@example.com"
+                    href={`mailto:${PERSONAL_INFO.email}`}
                     className="p-3 bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded-lg transition-all duration-200"
                     aria-label="Send email"
                   >
