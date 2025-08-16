@@ -9,7 +9,7 @@
     title: 'Testing Technician & International Trade Professional',
     tagline: 'Expert in international trade operations and electronic testing with 30+ years experience',
     email: 'son.sscorp@gmail.com',
-    location: 'Anaheim, CA',
+    location: 'Santa Ana, CA',
     bio: `Experienced professional with over 30 years in international trade and manufacturing operations.
           Currently specializing in electronic circuit board testing at Express Manufacturing Inc.
           Extensive background in managing import/export operations, production oversight, and customer coordination
@@ -54,7 +54,7 @@
       company: 'Express Manufacturing Inc.',
       position: 'Testing Technician',
       duration: 'September 2023 - Present',
-      location: 'Anaheim, CA',
+      location: 'Santa Ana, CA',
       description: [
         'Perform comprehensive testing of electronic circuit boards to ensure quality standards',
         'Operate specialized testing equipment for electronic component validation',
