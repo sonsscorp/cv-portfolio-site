@@ -94,7 +94,7 @@
                 >
                   <div className="relative bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden aspect-square">
                     <Image
-                      src="/jft-rice-photo.jpg"
+                      src="/JFT Rice.JPG"
                       alt="JFT Rice Industry"
                       fill
                       className="object-cover"
@@ -113,7 +113,7 @@
                 >
                   <div className="relative bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden aspect-square">
                     <Image
-                      src="/sscorp-photo.jpg"
+                      src="/sscorp.jpg"
                       alt="SSCORP LTD"
                       fill
                       className="object-cover"
